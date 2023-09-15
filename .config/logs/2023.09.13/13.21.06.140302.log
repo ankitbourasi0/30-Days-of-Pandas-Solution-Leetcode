@@ -1,0 +1,596 @@
+2023-09-13 13:21:06,146 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2023-09-13 13:21:06,150 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2023-09-13 13:21:06,153 DEBUG    root            Running [gcloud.components.update] with arguments: [--allow-no-backup: "True", --compile-python: "True", --quiet: "True", COMPONENT-IDS:7: "['core', 'gcloud-deps', 'bq', 'gcloud', 'gcloud-crc32c', 'gsutil', 'anthoscli']"]
+2023-09-13 13:21:06,154 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2023-09-13 13:21:18,202 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:18,358 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 209937
+2023-09-13 13:21:18,379 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,379 INFO     ___FILE_ONLY___ 
+Your current Google Cloud CLI version is: 446.0.0
+
+2023-09-13 13:21:18,379 INFO     ___FILE_ONLY___ Installing components from version: 446.0.0
+
+2023-09-13 13:21:18,379 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,380 DEBUG    root            Chosen display Format:table[box,title="These components will be removed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-09-13 13:21:18,381 DEBUG    root            Chosen display Format:table[box,title="These components will be updated."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-09-13 13:21:18,381 DEBUG    root            Chosen display Format:table[box,title="These components will be installed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ ┌─────────────────────────────────────────────────────────────────────────────┐
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ │                     These components will be installed.                     │
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┬────────────┬──────────┤
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ │                         Name                        │  Version   │   Size   │
+2023-09-13 13:21:18,390 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┼────────────┼──────────┤
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                         
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___     2.0.98
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,391 INFO     ___FILE_ONLY___  1.6 MiB
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ BigQuery Command Line Tool (Platform Specific)     
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___     2.0.98
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___  < 1 MiB
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,392 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ Bundled Python 3.9                                 
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___     3.9.16
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ 63.6 MiB
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,393 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                    
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___       5.25
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ 11.3 MiB
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool (Platform Specific)
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,394 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___       5.25
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___  < 1 MiB
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ Google Cloud CLI Core Libraries (Platform Specific)
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ 2023.09.08
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,395 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___  < 1 MiB
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ Google Cloud CRC32C Hash Tool                      
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___      1.0.0
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___  1.2 MiB
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,396 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ anthoscli                                          
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___     0.2.39
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ 68.4 MiB
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,397 INFO     ___FILE_ONLY___ gcloud cli dependencies                            
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ 2021.04.16
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ │ 
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___  < 1 MiB
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___  
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ │
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ └─────────────────────────────────────────────────────┴────────────┴──────────┘
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,398 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:18,402 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:18,562 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/1.1" 200 1074395
+2023-09-13 13:21:18,680 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2023-09-13 13:21:18,683 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:18,683 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2023-09-13 13:21:18,683 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:18,683 INFO     ___FILE_ONLY___ ══════
+2023-09-13 13:21:18,684 INFO     ___FILE_ONLY___ ══════
+2023-09-13 13:21:18,684 INFO     ___FILE_ONLY___ ══════
+2023-09-13 13:21:19,083 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,136 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,200 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,248 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,292 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,351 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,402 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,451 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,499 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,548 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,611 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,661 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,715 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,791 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,853 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,905 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:19,955 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,016 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,075 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,137 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,197 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,265 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,323 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,390 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,464 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,520 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,582 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,646 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,705 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,763 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,821 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,883 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:20,947 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,126 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,161 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,191 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,230 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,259 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,291 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,331 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,405 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,462 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,463 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:21,689 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:21,690 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool                   ═╣
+
+2023-09-13 13:21:21,690 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:21,694 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:21,857 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-bq-20230908131923.tar.gz HTTP/1.1" 200 1659622
+2023-09-13 13:21:21,921 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,922 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,922 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,922 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,922 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,922 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,924 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,925 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,925 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,925 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,925 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,925 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,925 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,926 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,926 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,926 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,926 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:21,926 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,057 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,062 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,066 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,070 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,074 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,078 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,083 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,088 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,092 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,095 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,099 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,103 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,109 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,113 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,117 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,121 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,125 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,130 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,136 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,140 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,144 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,151 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,159 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,163 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,166 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,171 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,175 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,179 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,183 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,186 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:22,186 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:22,204 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:22,204 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool (Platform Spec... ═╣
+
+2023-09-13 13:21:22,204 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:22,208 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:22,364 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-bq-nix-20230908131923.tar.gz HTTP/1.1" 200 1947
+2023-09-13 13:21:22,365 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:22,366 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:22,366 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:22,375 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:22,375 INFO     ___FILE_ONLY___ ╠═ Installing: Bundled Python 3.9                           ═╣
+
+2023-09-13 13:21:22,376 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:22,381 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-09-13 13:21:22,381 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:22,383 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:22,383 INFO     ___FILE_ONLY___ ╠═ Installing: Bundled Python 3.9                           ═╣
+
+2023-09-13 13:21:22,383 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:22,387 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:22,549 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-bundled-python3-unix-linux-x86_64-20230707144938.tar.gz HTTP/1.1" 200 66719069
+2023-09-13 13:21:23,043 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,046 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,049 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,052 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,055 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,058 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,061 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,064 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,066 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,069 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,072 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,075 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,078 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,081 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,084 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,087 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,090 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,093 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,096 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,099 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,102 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,105 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,108 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,111 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,114 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,117 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,120 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,123 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,126 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:23,129 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,137 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,151 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,167 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,181 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,195 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,213 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,232 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,254 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,273 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,287 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,307 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,328 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,344 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,473 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,488 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,589 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,614 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,636 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,656 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,694 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,709 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,724 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,740 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,759 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,779 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:25,799 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:26,455 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:26,755 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:26,767 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:26,779 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:26,780 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:26,840 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:26,841 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool              ═╣
+
+2023-09-13 13:21:26,841 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:26,845 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:26,947 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gsutil-20230707144938.tar.gz HTTP/1.1" 200 11823782
+2023-09-13 13:21:27,085 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,086 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,087 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,087 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,088 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,088 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,089 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,089 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,090 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,091 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,091 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,092 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,092 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,093 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,094 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,094 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,095 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,096 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,096 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,097 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,097 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,098 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,098 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,099 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,100 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,100 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,101 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,101 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,102 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,103 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,866 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,896 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,923 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,953 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,973 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:27,994 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,016 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,040 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,066 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,104 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,138 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,165 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,204 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,237 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,268 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,293 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,313 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,337 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,362 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,390 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,421 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,448 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,474 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,525 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,553 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,581 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,602 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,624 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,649 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,672 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:28,672 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:28,751 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:28,752 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool (Platform... ═╣
+
+2023-09-13 13:21:28,752 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:28,756 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:28,852 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gsutil-nix-20230908131923.tar.gz HTTP/1.1" 200 1962
+2023-09-13 13:21:28,853 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:28,854 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:28,854 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:28,863 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:28,863 INFO     ___FILE_ONLY___ ╠═ Installing: Default set of gcloud commands               ═╣
+
+2023-09-13 13:21:28,863 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:28,869 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-09-13 13:21:28,869 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:28,871 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:28,871 INFO     ___FILE_ONLY___ ╠═ Installing: Google Cloud CLI Core Libraries (Platform... ═╣
+
+2023-09-13 13:21:28,871 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:28,875 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:29,031 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-core-nix-20230908131923.tar.gz HTTP/1.1" 200 2324
+2023-09-13 13:21:29,032 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:29,033 INFO     ___FILE_ONLY___ ═══════════════
+2023-09-13 13:21:29,033 INFO     ___FILE_ONLY___ ═══════════════
+2023-09-13 13:21:29,033 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:29,076 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:29,076 INFO     ___FILE_ONLY___ ╠═ Installing: Google Cloud CRC32C Hash Tool                ═╣
+
+2023-09-13 13:21:29,076 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:29,082 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-09-13 13:21:29,082 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:29,084 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:29,084 INFO     ___FILE_ONLY___ ╠═ Installing: Google Cloud CRC32C Hash Tool                ═╣
+
+2023-09-13 13:21:29,084 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:29,088 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:29,248 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gcloud-crc32c-linux-x86_64-20230901141909.tar.gz HTTP/1.1" 200 1288915
+2023-09-13 13:21:29,307 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,308 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,308 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,308 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,308 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,308 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,308 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,309 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,310 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,311 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,312 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:29,347 INFO     ___FILE_ONLY___ ═══════════════
+2023-09-13 13:21:29,348 INFO     ___FILE_ONLY___ ═══════════════
+2023-09-13 13:21:29,348 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:29,358 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:29,358 INFO     ___FILE_ONLY___ ╠═ Installing: anthoscli                                    ═╣
+
+2023-09-13 13:21:29,358 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:29,364 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2023-09-13 13:21:29,364 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:29,366 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:29,366 INFO     ___FILE_ONLY___ ╠═ Installing: anthoscli                                    ═╣
+
+2023-09-13 13:21:29,366 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:29,370 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:29,530 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-anthoscli-linux-x86_64-20230811080439.tar.gz HTTP/1.1" 200 71743762
+2023-09-13 13:21:30,054 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,057 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,060 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,063 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,066 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,070 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,073 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,076 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,079 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,082 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,085 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,089 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,092 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,095 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,098 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,101 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,104 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,108 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,111 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,114 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,117 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,120 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,124 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,127 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,130 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,133 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,136 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,139 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,143 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:30,146 INFO     ___FILE_ONLY___ ═
+2023-09-13 13:21:32,425 INFO     ___FILE_ONLY___ ══════════
+2023-09-13 13:21:32,431 INFO     ___FILE_ONLY___ ═════════
+2023-09-13 13:21:32,458 INFO     ___FILE_ONLY___ ═══════════
+2023-09-13 13:21:32,458 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:32,482 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:32,483 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud cli dependencies                      ═╣
+
+2023-09-13 13:21:32,483 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:32,487 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-09-13 13:21:32,586 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gcloud-deps-linux-x86_64-20210416153011.tar.gz HTTP/1.1" 200 104
+2023-09-13 13:21:32,586 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:32,587 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:32,587 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:32,597 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-09-13 13:21:32,597 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2023-09-13 13:21:32,597 INFO     ___FILE_ONLY___ ╚
+2023-09-13 13:21:32,597 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2023-09-13 13:21:32,597 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:32,597 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2023-09-13 13:21:32,597 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-09-13 13:21:32,598 INFO     ___FILE_ONLY___ ╝
+
+2023-09-13 13:21:32,602 DEBUG    root            Updating notification cache...
+2023-09-13 13:21:32,602 INFO     ___FILE_ONLY___ 
+
+2023-09-13 13:21:32,604 INFO     ___FILE_ONLY___ Performing post processing steps...
+2023-09-13 13:21:32,605 DEBUG    root            Executing command: ['python3', '-S', '/tools/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process']
+2023-09-13 13:21:57,425 DEBUG    ___FILE_ONLY___ 
+2023-09-13 13:21:57,425 DEBUG    ___FILE_ONLY___ 
+2023-09-13 13:21:57,645 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2023-09-13 13:21:57,649 DEBUG    root            Chosen display Format:none
+2023-09-13 13:21:57,649 INFO     root            Display format: "none"
